@@ -1,0 +1,14 @@
+"options":
+  "basic":
+    "use_venv": !!bool "true"
+    "packages": []
+    "include_system_packages": !!bool "false"
+  "collectd": {}
+"includes":
+- "layer:basic"
+- "interface:http"
+- "interface:nrpe-external-master"
+"ignore":
+  "collectd": [".*.swp"]
+"repo": "https://git.launchpad.net/collectd-charm"
+"is": "collectd"
