@@ -1,0 +1,331 @@
+{
+  "layers": [
+    "layer:basic", 
+    "collectd", 
+    "interface:http", 
+    "interface:nrpe-external-master", 
+    "build"
+  ], 
+  "signatures": {
+    ".build.manifest": [
+      "build", 
+      "dynamic", 
+      "unchecked"
+    ], 
+    ".gitignore": [
+      "collectd", 
+      "static", 
+      "632c4cad014a5945daad9c58e97c077134d402af48ad52e1432cc5cc7bc607c9"
+    ], 
+    "Makefile": [
+      "collectd", 
+      "static", 
+      "ec66d6a7f6f4a93e9b392c70223b091b8a2dc52b313beb592814f4b6a62b5f95"
+    ], 
+    "README.md": [
+      "collectd", 
+      "static", 
+      "8bd88e125bd95c568b64f2f4c44a5f6bc09c4a8a04ef38c65367fb8382e6f211"
+    ], 
+    "bin/layer_option": [
+      "layer:basic", 
+      "static", 
+      "621b556cd208005e131e9f648859294347da9376609745a73ca2e808dd2032f9"
+    ], 
+    "config.yaml": [
+      "collectd", 
+      "dynamic", 
+      "ca0e3b0673f47bdca41a44daeaa112eed82c9bf1e735cd20d32498c18e26b0dd"
+    ], 
+    "copyright": [
+      "collectd", 
+      "static", 
+      "60418020fdb24346ea19d977d18e7064dee06de227731ae4c16cb3edd3df2bc9"
+    ], 
+    "files/collectd-exporter.service": [
+      "collectd", 
+      "static", 
+      "86b6289f8a6d716d08024e88bcd3d74fafca364948b55a9ae981f5aa5ad07450"
+    ], 
+    "hooks/config-changed": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/hook.template": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/install": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/leader-elected": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/leader-settings-changed": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/nrpe-external-master-relation-broken": [
+      "interface:nrpe-external-master", 
+      "dynamic", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/nrpe-external-master-relation-changed": [
+      "interface:nrpe-external-master", 
+      "dynamic", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/nrpe-external-master-relation-departed": [
+      "interface:nrpe-external-master", 
+      "dynamic", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/nrpe-external-master-relation-joined": [
+      "interface:nrpe-external-master", 
+      "dynamic", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/relations/http/README.md": [
+      "interface:http", 
+      "static", 
+      "9c95320ad040745374fc03e972077f52c27e07eb0386ec93ae19bd50dca24c0d"
+    ], 
+    "hooks/relations/http/__init__.py": [
+      "interface:http", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "hooks/relations/http/interface.yaml": [
+      "interface:http", 
+      "static", 
+      "d0b64038b85b7791ee4f3a42d73ffc8c208f206f73f899cbf33a519d12f9ad13"
+    ], 
+    "hooks/relations/http/provides.py": [
+      "interface:http", 
+      "static", 
+      "c6e16d6c0d80009aab33c51cb1e196f959df155ac656f47fe7104484859d2476"
+    ], 
+    "hooks/relations/http/requires.py": [
+      "interface:http", 
+      "static", 
+      "70188554d673bff61578f4e601a78a91efb4736df727507e984be5ca19335f82"
+    ], 
+    "hooks/relations/nrpe-external-master/README.md": [
+      "interface:nrpe-external-master", 
+      "static", 
+      "d8ed3bc7334f6581b12b6091923f58e6f5ef62075a095a4e78fb8f434a948636"
+    ], 
+    "hooks/relations/nrpe-external-master/__init__.py": [
+      "interface:nrpe-external-master", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "hooks/relations/nrpe-external-master/interface.yaml": [
+      "interface:nrpe-external-master", 
+      "static", 
+      "894f24ba56148044dae5b7febf874b427d199239bcbe1f2f55c3db06bb77b5f0"
+    ], 
+    "hooks/relations/nrpe-external-master/provides.py": [
+      "interface:nrpe-external-master", 
+      "static", 
+      "54e5400de99c051ecf6453776ad416b1cb8c6b73b34cbe2f41b617a8ed7b9daa"
+    ], 
+    "hooks/start": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/stop": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/target-relation-broken": [
+      "interface:http", 
+      "dynamic", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/target-relation-changed": [
+      "interface:http", 
+      "dynamic", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/target-relation-departed": [
+      "interface:http", 
+      "dynamic", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/target-relation-joined": [
+      "interface:http", 
+      "dynamic", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/update-status": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "hooks/upgrade-charm": [
+      "layer:basic", 
+      "static", 
+      "8fb6559bf4d4b7cdf1b857564c1d7265df98e863a4746fcbae092f141e59d97e"
+    ], 
+    "icon.svg": [
+      "collectd", 
+      "static", 
+      "1c7c6b9ddbe3563fbd1d928bba4543b37c9eb1b2168e89bd7f613efab0597fcb"
+    ], 
+    "layer.yaml": [
+      "collectd", 
+      "dynamic", 
+      "ff5610388c944fed2b4c3696e1c061b7022465bdb88ef91e1ee0f474ad1adb8a"
+    ], 
+    "lib/charms/layer/__init__.py": [
+      "layer:basic", 
+      "static", 
+      "71a8b901f7e64a6b1b61959fc25819bafc9c9905e37a918615b9f949295095a4"
+    ], 
+    "lib/charms/layer/basic.py": [
+      "layer:basic", 
+      "static", 
+      "d09706ef3a224eb60d34366a2867c382791aa30157ab5b77eda37f29731df2e2"
+    ], 
+    "lib/charms/layer/execd.py": [
+      "layer:basic", 
+      "static", 
+      "af1f2409869f990cdb33cffc4120fb6713876e8e680ac5f064ea510bbdca1073"
+    ], 
+    "metadata.yaml": [
+      "collectd", 
+      "dynamic", 
+      "b85e4b48a0bc05a0c02b7ce250e612efb904ee0369e8c4e3c845d8989f25d6c0"
+    ], 
+    "reactive/__init__.py": [
+      "layer:basic", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "reactive/collectd.py": [
+      "collectd", 
+      "static", 
+      "80c335bac5ea1dc38eac97b21b2ac549769fbb5e3fe47f252d5ea9fbab863ae3"
+    ], 
+    "requirements.txt": [
+      "layer:basic", 
+      "static", 
+      "0f1c70d27e26005a96d66ad54482877ae20f7737693c833e29dd72bd6ac24892"
+    ], 
+    "templates/collectd.conf.d/df.conf.j2": [
+      "collectd", 
+      "static", 
+      "5a342114599030feb1b72fafcb9bc4faee40589b54b20b9862edd3031a29063c"
+    ], 
+    "templates/collectd.conf.d/network.conf.j2": [
+      "collectd", 
+      "static", 
+      "bcc6e349a5ee08eade86ceb683be52e9dd661f5f239a0f557a89d0ae50c3437e"
+    ], 
+    "templates/collectd.conf.d/write_graphite.conf.j2": [
+      "collectd", 
+      "static", 
+      "097bc9badbf70ea28a9575b295ddfa53dad9fe1df2ecdbfd0067b5ae54bf2b13"
+    ], 
+    "templates/collectd.conf.d/write_http.conf.j2": [
+      "collectd", 
+      "static", 
+      "7a943a7d89516b9bc2aa5c1ccc8d5885f1552d1373647e02c637cda9ee5e2622"
+    ], 
+    "templates/collectd.conf.j2": [
+      "collectd", 
+      "static", 
+      "5585f16b3686afb845f6af2c57561cd3005379ebb6f8bb1229f990e30d04a3a7"
+    ], 
+    "templates/nagios-export.jinja2": [
+      "collectd", 
+      "static", 
+      "d02ceb5c06be00dfd8e96924b77e602abe958ecb26b67e8066482ca2d0e1dd77"
+    ], 
+    "templates/nrpe-config.jinja2": [
+      "collectd", 
+      "static", 
+      "8d5f9d86ad922760bacbe8d8667f697819316b3d42464ad5245bd53a0b01168b"
+    ], 
+    "templates/prometheus-node-exporter.j2": [
+      "collectd", 
+      "static", 
+      "92ff32ed76ad2377398206fd38901b2f68f8db4eac40e7979c7e0eb5bac1b55f"
+    ], 
+    "tests/00-setup": [
+      "collectd", 
+      "static", 
+      "ef43322830d1ef2835ef16585791ef28f6323c9db7d7af22150fbfafbc1e1386"
+    ], 
+    "tests/99-autogen": [
+      "collectd", 
+      "static", 
+      "1cd1924f22fa817736482ccf099ca5879ab658623970391161620caa178f0166"
+    ], 
+    "tox.ini": [
+      "layer:basic", 
+      "static", 
+      "00b57a776ac313e92a52daa05d1fdb6056c21b3105b643d32610fd937664321b"
+    ], 
+    "wheelhouse/Jinja2-2.9.6.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "ddaa01a212cd6d641401cb01b605f4a4d9f37bfc93043d7f760ec70fb99ff9ff"
+    ], 
+    "wheelhouse/MarkupSafe-1.0.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "a6be69091dac236ea9c6bc7d012beab42010fa914c459791d627dad4910eb665"
+    ], 
+    "wheelhouse/PyYAML-3.12.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab"
+    ], 
+    "wheelhouse/Tempita-0.5.2.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "cacecf0baa674d356641f1d406b8bff1d756d739c46b869a54de515d08e6fc9c"
+    ], 
+    "wheelhouse/charmhelpers-0.18.1.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "15dbae866550b724fb81ce501e118386b28a554110bd45f8ce3f62139411cf9f"
+    ], 
+    "wheelhouse/charms.reactive-0.4.7.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "f023f5aef267786db1be51209610487171ba56e848f7b1c49877b06337000256"
+    ], 
+    "wheelhouse/netaddr-0.7.19.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "38aeec7cdd035081d3a4c306394b19d677623bf76fa0913f6695127c7753aefd"
+    ], 
+    "wheelhouse/pip-8.1.2.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "4d24b03ffa67638a3fa931c09fd9e0273ffa904e95ebebe7d4b1a54c93d7b732"
+    ], 
+    "wheelhouse/pyaml-17.8.0.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "9cf5ff8fc3b82aab1428e67ab2040b52a9f39433517cb7c5b852498ed3a75740"
+    ], 
+    "wheelhouse/six-1.11.0.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
+    ]
+  }
+}
