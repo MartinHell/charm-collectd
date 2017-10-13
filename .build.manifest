@@ -15,7 +15,7 @@
     ".git/COMMIT_EDITMSG": [
       "collectd", 
       "static", 
-      "b31ad25794a79140d556d5830b9be496b24041102cae3e2c931eb305dc44addd"
+      "f5f0c574c5300d6c86cef95b3f28f3efa5fec18a10f694ad0e313e3f320c358e"
     ], 
     ".git/FETCH_HEAD": [
       "collectd", 
@@ -90,7 +90,7 @@
     ".git/index": [
       "collectd", 
       "static", 
-      "edb732a8286ae2446e29b78b98675aea4578de25c18a0e479ef9983fd6744cd5"
+      "f736f23fc45ddd5c036e2e640eba461d0f5c3c212d5ff8ff8a3ba8ae50d118ab"
     ], 
     ".git/info/exclude": [
       "collectd", 
@@ -100,7 +100,7 @@
     ".git/logs/HEAD": [
       "collectd", 
       "static", 
-      "ce0d06ff2dc58e7058294bb8a4ee3de3c5fa97d72627824123aca72f02e4f251"
+      "42084ac8b35c109f3c71cd8cd1a750affc19c8d10cd042d8181a4b62c6a8ede2"
     ], 
     ".git/logs/refs/heads/master": [
       "collectd", 
@@ -126,6 +126,11 @@
       "collectd", 
       "static", 
       "6661e4c9e9f9592991cd631098ee07baa15b433b9d75c7c6433953d2300e0d09"
+    ], 
+    ".git/objects/75/3820de87f0300da8e557f40cd47e0ed5e537e2": [
+      "collectd", 
+      "static", 
+      "ff7e27c860934eae0c8c304d9e57ff10a3e6ec07a1d8df49791973ab3e568a99"
     ], 
     ".git/objects/9d/4f9d2e3549a3bdc24867e7b0e7b4cca3aee648": [
       "collectd", 
@@ -195,7 +200,7 @@
     "files/collectd-exporter.service": [
       "collectd", 
       "static", 
-      "86b6289f8a6d716d08024e88bcd3d74fafca364948b55a9ae981f5aa5ad07450"
+      "01c7e2c18e507a235b1f5fe5b4f7acc8ebd977b1223126bda2d01867dcadc161"
     ], 
     "hooks/config-changed": [
       "layer:basic", 
@@ -365,7 +370,7 @@
     "reactive/collectd.py": [
       "collectd", 
       "static", 
-      "015c511d51b3e6a1ec799552ff232f3ef9d7d2aec93a4c74071cb9b01e1123d9"
+      "74eb6857e11c0551be2ca2c5ca986511fde75b658cfd1520d0034b877f491c9a"
     ], 
     "requirements.txt": [
       "layer:basic", 
