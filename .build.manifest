@@ -12,6 +12,156 @@
       "dynamic", 
       "unchecked"
     ], 
+    ".git/COMMIT_EDITMSG": [
+      "collectd", 
+      "static", 
+      "b31ad25794a79140d556d5830b9be496b24041102cae3e2c931eb305dc44addd"
+    ], 
+    ".git/FETCH_HEAD": [
+      "collectd", 
+      "static", 
+      "fd777b6091246f27480d68aa4979eaf97ba032e89a27a6fa30fdcf94549c72be"
+    ], 
+    ".git/HEAD": [
+      "collectd", 
+      "static", 
+      "bda77d7d12a90332080071375095fb080d8cd2a6702e6ee44552863a0ca4317e"
+    ], 
+    ".git/ORIG_HEAD": [
+      "collectd", 
+      "static", 
+      "897559db5269b494d3425b5468b8d8ec6e1b854cb34fea6f5f27b4598c7e4e55"
+    ], 
+    ".git/config": [
+      "collectd", 
+      "static", 
+      "12a89af4ab0782a69c40b63177ac1c49236f9554252f699e32643629897f05e2"
+    ], 
+    ".git/description": [
+      "collectd", 
+      "static", 
+      "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+    ], 
+    ".git/hooks/applypatch-msg.sample": [
+      "collectd", 
+      "static", 
+      "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+    ], 
+    ".git/hooks/commit-msg.sample": [
+      "collectd", 
+      "static", 
+      "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+    ], 
+    ".git/hooks/post-update.sample": [
+      "collectd", 
+      "static", 
+      "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+    ], 
+    ".git/hooks/pre-applypatch.sample": [
+      "collectd", 
+      "static", 
+      "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+    ], 
+    ".git/hooks/pre-commit.sample": [
+      "collectd", 
+      "static", 
+      "12c723235131f1c5576c652ac2a0a007f261a93c0ddc445b1dcee6cd98e30788"
+    ], 
+    ".git/hooks/pre-push.sample": [
+      "collectd", 
+      "static", 
+      "4b1119e1e13a212571976f4aee77847cdbd40978546d6273a557e238981a40d1"
+    ], 
+    ".git/hooks/pre-rebase.sample": [
+      "collectd", 
+      "static", 
+      "14b57168a2e847946ee1291e617cf6a0d8598387ba404565f1b18cc4c7f15651"
+    ], 
+    ".git/hooks/prepare-commit-msg.sample": [
+      "collectd", 
+      "static", 
+      "f7e5627b5a26d0026ef50352f7393350ee58cc101f5e8337f944b57a5039968c"
+    ], 
+    ".git/hooks/update.sample": [
+      "collectd", 
+      "static", 
+      "751c037320024ec2ee2757f3ffae0b10ad2c946367684e7059d4dc97eac7e431"
+    ], 
+    ".git/index": [
+      "collectd", 
+      "static", 
+      "edb732a8286ae2446e29b78b98675aea4578de25c18a0e479ef9983fd6744cd5"
+    ], 
+    ".git/info/exclude": [
+      "collectd", 
+      "static", 
+      "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+    ], 
+    ".git/logs/HEAD": [
+      "collectd", 
+      "static", 
+      "ce0d06ff2dc58e7058294bb8a4ee3de3c5fa97d72627824123aca72f02e4f251"
+    ], 
+    ".git/logs/refs/heads/master": [
+      "collectd", 
+      "static", 
+      "a2db48ad1dca49240623e11aa4bee709f829fa4b1e3f3830b8f4a501e3aa3c16"
+    ], 
+    ".git/logs/refs/remotes/origin/master": [
+      "collectd", 
+      "static", 
+      "609f4678608f5ad12617a28dfaadd078cea36806f1d8981985b254b1311dbc49"
+    ], 
+    ".git/objects/08/8c553959a55c49418f351362acbfe2d5495e36": [
+      "collectd", 
+      "static", 
+      "199293929e25bfac1b7b02c24f404b0a5eccf2ebaadf3627586181b02ccb7767"
+    ], 
+    ".git/objects/52/953bf80c090a0957a3521a46e8cb90ad029ff9": [
+      "collectd", 
+      "static", 
+      "3170600eeb34e075ccacdcda4dfc9a585e32eac9f8897f80e6202f4fa8eee17a"
+    ], 
+    ".git/objects/59/ff92ee2421da808a9dee2a99faf1dd37fff19d": [
+      "collectd", 
+      "static", 
+      "6661e4c9e9f9592991cd631098ee07baa15b433b9d75c7c6433953d2300e0d09"
+    ], 
+    ".git/objects/9d/4f9d2e3549a3bdc24867e7b0e7b4cca3aee648": [
+      "collectd", 
+      "static", 
+      "78358124cc06a9caafcc51aec759fb556359ab24f0b03aa6065fd470e2c69467"
+    ], 
+    ".git/objects/b7/a0d1f5af8ab15abee4ee6bb96153c46d66f579": [
+      "collectd", 
+      "static", 
+      "6cfd9666838c65b04223b7a295215f5f081a41c1473b828f8c7f745d082704ac"
+    ], 
+    ".git/objects/cd/a435f0a7f34fe673e35a14ff34216fe82ce6f1": [
+      "collectd", 
+      "static", 
+      "2a914eff50a7f30644f3d05d33b9b626524097b9c0394070bf150c548ce580b5"
+    ], 
+    ".git/objects/da/ce9b65a4652f07424349e77542cc69560bfa89": [
+      "collectd", 
+      "static", 
+      "06cec6f44e5ae1167170dd1106bb0467ba65294d0dde88efdd2aecc790c7a9d0"
+    ], 
+    ".git/objects/e2/236ce21f10c3737f9d9dd964cbc66bd7b16b92": [
+      "collectd", 
+      "static", 
+      "93845c32d91879ec25ce953d02a45dafc814c6cd3f859e8826c082708d484d5d"
+    ], 
+    ".git/refs/heads/master": [
+      "collectd", 
+      "static", 
+      "897559db5269b494d3425b5468b8d8ec6e1b854cb34fea6f5f27b4598c7e4e55"
+    ], 
+    ".git/refs/remotes/origin/master": [
+      "collectd", 
+      "static", 
+      "ade0ebb40652ad2cc9c52c82530c7987bcea0b84e2b1493ba48cbf0b8eb5fd4b"
+    ], 
     ".gitignore": [
       "collectd", 
       "static", 
@@ -215,7 +365,7 @@
     "reactive/collectd.py": [
       "collectd", 
       "static", 
-      "80c335bac5ea1dc38eac97b21b2ac549769fbb5e3fe47f252d5ea9fbab863ae3"
+      "015c511d51b3e6a1ec799552ff232f3ef9d7d2aec93a4c74071cb9b01e1123d9"
     ], 
     "requirements.txt": [
       "layer:basic", 
@@ -302,10 +452,10 @@
       "dynamic", 
       "15dbae866550b724fb81ce501e118386b28a554110bd45f8ce3f62139411cf9f"
     ], 
-    "wheelhouse/charms.reactive-0.4.7.tar.gz": [
+    "wheelhouse/charms.reactive-0.5.0.tar.gz": [
       "layer:basic", 
       "dynamic", 
-      "f023f5aef267786db1be51209610487171ba56e848f7b1c49877b06337000256"
+      "4df8e4c0052b0d46ec8a17dc724faa98169a879752eee78dc07d0f6a0a80837e"
     ], 
     "wheelhouse/netaddr-0.7.19.tar.gz": [
       "layer:basic", 
@@ -317,10 +467,10 @@
       "dynamic", 
       "4d24b03ffa67638a3fa931c09fd9e0273ffa904e95ebebe7d4b1a54c93d7b732"
     ], 
-    "wheelhouse/pyaml-17.8.0.tar.gz": [
+    "wheelhouse/pyaml-17.10.0.tar.gz": [
       "layer:basic", 
       "dynamic", 
-      "9cf5ff8fc3b82aab1428e67ab2040b52a9f39433517cb7c5b852498ed3a75740"
+      "a9a3e83372072fc7dc1aebcab37d6f2e08fb8066f553f31d6fc9cb2ad0b515d3"
     ], 
     "wheelhouse/six-1.11.0.tar.gz": [
       "layer:basic", 
