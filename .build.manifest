@@ -15,7 +15,7 @@
     ".git/COMMIT_EDITMSG": [
       "collectd", 
       "static", 
-      "f5f0c574c5300d6c86cef95b3f28f3efa5fec18a10f694ad0e313e3f320c358e"
+      "eaee4f1475f0b08ccdaa82063cbc886cf3d29059f1aa266747290094fa369baf"
     ], 
     ".git/FETCH_HEAD": [
       "collectd", 
@@ -90,7 +90,7 @@
     ".git/index": [
       "collectd", 
       "static", 
-      "f736f23fc45ddd5c036e2e640eba461d0f5c3c212d5ff8ff8a3ba8ae50d118ab"
+      "0e539c9c80ac0087e5fe88093775428384e69be4a7687a805ce22c521cbc2d01"
     ], 
     ".git/info/exclude": [
       "collectd", 
@@ -100,7 +100,7 @@
     ".git/logs/HEAD": [
       "collectd", 
       "static", 
-      "42084ac8b35c109f3c71cd8cd1a750affc19c8d10cd042d8181a4b62c6a8ede2"
+      "6b8fcba2cbcf8bc3769172adec748044b527df18878a5c9105b3c65eea824b34"
     ], 
     ".git/logs/refs/heads/master": [
       "collectd", 
@@ -117,6 +117,11 @@
       "static", 
       "199293929e25bfac1b7b02c24f404b0a5eccf2ebaadf3627586181b02ccb7767"
     ], 
+    ".git/objects/38/327ac6d1d06c5703c95c08e24dad4bf662d4d8": [
+      "collectd", 
+      "static", 
+      "33de07b7ea9ce5c938310c60f19884df9a7b725a0ec0978ed81471ac1805c9c5"
+    ], 
     ".git/objects/52/953bf80c090a0957a3521a46e8cb90ad029ff9": [
       "collectd", 
       "static", 
@@ -131,6 +136,11 @@
       "collectd", 
       "static", 
       "ff7e27c860934eae0c8c304d9e57ff10a3e6ec07a1d8df49791973ab3e568a99"
+    ], 
+    ".git/objects/85/f6e5f74eba9ebf88603ef65cdba16527ef0132": [
+      "collectd", 
+      "static", 
+      "318dc1afa99507b3ea4bee0cc5a7d0b7911411dbbb87732bfe6bf21bc9a870a9"
     ], 
     ".git/objects/9d/4f9d2e3549a3bdc24867e7b0e7b4cca3aee648": [
       "collectd", 
@@ -151,6 +161,11 @@
       "collectd", 
       "static", 
       "06cec6f44e5ae1167170dd1106bb0467ba65294d0dde88efdd2aecc790c7a9d0"
+    ], 
+    ".git/objects/e0/4701994d8c2713a7580dacb4ae4c4c9ad3f258": [
+      "collectd", 
+      "static", 
+      "98cbc325e6cf868074567c398eebb92f84670fc7de404f50964770d7db740f77"
     ], 
     ".git/objects/e2/236ce21f10c3737f9d9dd964cbc66bd7b16b92": [
       "collectd", 
@@ -370,7 +385,7 @@
     "reactive/collectd.py": [
       "collectd", 
       "static", 
-      "74eb6857e11c0551be2ca2c5ca986511fde75b658cfd1520d0034b877f491c9a"
+      "5a33f39859ffc8d727b75487e17cba0daee213ac219bc3b06fbd2465d40a2746"
     ], 
     "requirements.txt": [
       "layer:basic", 
